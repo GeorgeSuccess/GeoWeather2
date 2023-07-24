@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				
+				 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="George Kalonde">
+    <meta name="generator" content="Hugo 0.82.0">
+    
+    <title>Geo Weather</title>
+    
+   
+    <style>
+    				
+body{
+				background-color:white;
+				margin:auto;
+				padding:10px;
+				
+}
+.start{
+      height:100px;
+      width:100px;
+      border-radius:100px;
+      justify-content:center;
+      align-items	:center	;	
+      margin-top:200px;
+      box-shadow:1px 1px 1px 1px black;																
+}
+.weather-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+height: 300px;
+
+
+ 
+ 
+.weather-box {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #FFFFFF;
+border-radius: 10px;
+box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+
+#temperature {
+font-size: 50px;
+margin: 0;
+}
+
+#condition {
+font-size: 20px;
+margin: 0;
+}
+
+#location {
+font-size: 20px;
+margin: 0;
+}
+
+input[type="text"] {
+padding: 15px;
+height: 50px;
+width: 300px;
+margin-right: 10px;
+margin-left: 10px;
+margin-bottom: 10px;
+border-radius: 5px;
+border: none;
+}
+
+
+   
+   button:hover{
+   transition: ease in out 1s;
+   border: solid 3px black;
+   
+   font-weight:bold black 2px;
+   background-color: #FFFFFF;
+   color:#2980B9 ;
+   
+   }
+
+
+      
+
+ 
+ 
+    </style>
+    
+</head>
+<body>
+				<center>
+			
+			<img src="Logo.png" style="width:130px;height:130px;border-radius:100px;">	<br><br>
+							
+							
+							
+							</center>
+				
+				<!-- Button for keys -->			
+				
+	<div style="background:lightgrey;padding:12px;padding:10px;border-radius:7px; ">
+<h3 style="text-align:center;">Know the Weather Forecast</h3><br>
+		
+
+<div class="weather-container">
+<div class="weather-box">
+<h2 id="temperature"></h2>
+<p id="condition"></p>
+<p id="location"></p>
+</div>
+<input type="text" placeholder="Enter a City Location " id="search-bar" style="padding: 15px;height: 50px;width: 300px;margin-right: 10px;margin-left: 10px;margin-bottom: 10px;border-radius: 5px;border: none;">
+<button id="search-btn" style=" height: 50px;
+width: 200px;padding: 10px 20px;border-radius: 5px;border: none;background-color: #2980B9;color: #FFFFFF;
+cursor: pointer;"><b>Search</b></button>
+</div>
+
+
+
+								
+							</div>
+							
+
+							
+							<small>
+											<span style="font-size:10px;opacity:4;text-align:center;">
+									<center>Powered By GeorgeSuccess</center>
+								</span>
+							</small>
+							</section>
+							
+							<script src="app.js">
+
+							</script>
+							</body>
+							
+							</html>
